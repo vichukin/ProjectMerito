@@ -1,22 +1,56 @@
-# Przewodnil po Londynie
-Prosta strona z informacją o **Londynie**
-## Spis treści
-- [Opis projektu](#opis-projektu)
-- [Technologie](#technologie)
-- [Jak uruchomic](#jak-urucomić)
-- [Zespół](#zespół)
+# Diplom_project_2024
 
-## Opis projektu
+# Property Management System
 
-## Technologie
-![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Static Badge](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white) ![Static Badge](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![Static Badge](https://img.shields.io/badge/trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
+The Property Management System is designed to provide convenient search, booking, and management of real estate. It allows users to act both as landlords and as clients, providing flexible interactions within a single service.
 
+## Core Functional Requirements
 
+### Registration and Authentication
 
-## Jak urucomić
-Nic nie trzeba instalować. Po prostu otwórz w przeglądarce
+* Ability to register and log in for all system users.
+* Users can edit their own data, except for their login.
 
-## Zespół
-- Team Lead - Vychkin D.
-- Front-end developer - Majewski P.
-- Back-end developer - Lewandowski K.
+### Role Management
+
+* The administrator can assign various roles to users, including the roles of a landlord or a client.
+* The administrator cannot delete or edit users, but can change their roles.
+
+### Property Management
+
+* Users acting as landlords can add, edit, and delete properties and addresses.
+* Administrators have full access to add, edit, and delete any property.
+* All users can view the list of properties and details of specific objects.
+
+### Property Booking
+
+* Users can book properties by specifying the rental period.
+* Future possibility of dialogue between landlords and clients through a built-in messaging system.
+
+### Property Categorization
+
+* Properties can be categorized to facilitate search and navigation.
+
+### Image Management
+
+* Ability to add images to properties, including the designation of main photos.
+
+### Property Tags
+
+* Adding tags to properties to improve search and categorization.
+
+## Additional Requirements
+
+### Security and Privacy
+
+* Protection of user data and their transactions.
+
+### Scalability
+
+* The system must adapt to an increasing number of users and properties.
+
+### Intuitive Interface
+
+* Easy-to-understand interface for users of all experience levels.
+
+The system provides flexible opportunities for all participants in the rental and property management process, maintaining a high level of interaction and meeting user needs.
